@@ -66,6 +66,7 @@ print("")
 print("---------------------------| #5: SUM OF FIRST N NUMBERS (RECURSION) |------------------- ")
 print("")
 
+print("n = 1000")
 print("Sum of n:",sum_of_n(1000))
 
 print("")
@@ -142,7 +143,7 @@ print("")
 if binary(arr,4) == -1:
     respuesta = "El número no se encuentra en la lista"
 else:
-    respuesta = "El número se encuentra en el indice:",binary(arr,4)
+    respuesta = 'El número se encuentra en el indice:',binary(arr,4)
 
 print(respuesta)
 
