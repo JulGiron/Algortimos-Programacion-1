@@ -5,7 +5,7 @@ def bubble_sort_optimized(arr):
             
             if arr[j] > arr [j + 1]:             
               arr[j], arr[j + 1] = arr[j+1], arr[j]
-    return 
+    return arr
     
 
 
