@@ -13,5 +13,5 @@ def insertion_sort(arr):
         j = 0
         i = i + 1
     i = 100
-    return 
+    return arr
 
